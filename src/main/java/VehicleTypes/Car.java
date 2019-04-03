@@ -7,8 +7,8 @@ public class Car extends Vehicle implements IRevEngine{
 
     private String fuelType;
 
-    public Car(String make, String model, String fuelType, Engine engine, Tyres tyres) {
-        super(make, model, engine, tyres);
+    public Car(String make, String model, String fuelType, Engine engine, Tyres tyres, int price) {
+        super(make, model, engine, tyres, price);
         this.fuelType = fuelType;
     }
 

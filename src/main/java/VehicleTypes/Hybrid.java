@@ -7,8 +7,8 @@ public class Hybrid extends Vehicle implements IRevEngine{
 
     private String fuelRatio;
 
-    public Hybrid(String make, String model, String fuelRatio, Engine engine, Tyres tyres) {
-        super(make, model, engine, tyres);
+    public Hybrid(String make, String model, String fuelRatio, Engine engine, Tyres tyres, int price) {
+        super(make, model, engine, tyres, price);
         this.fuelRatio = fuelRatio;
     }
 
